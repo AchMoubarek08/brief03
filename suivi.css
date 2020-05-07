@@ -1,0 +1,145 @@
+
+#customers {
+  font-family: montserrat;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color:white;}
+
+#customers tr:hover {background-color:#008AFF;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+.btn-group .button {
+  background-color: #000000; 
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: center;
+  margin-left: 250px;
+  margin-top: 70px;
+}
+a{
+ text-decoration: none;
+ color: white;
+ font-family: montserrat;
+}
+a:hover{
+ text-decoration: none;
+ color: #008AFF;
+ font-family: montserrat;
+}
+.btn-group .button:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group .button:hover {
+  background-color: #008AFF;
+}
+.table1{
+    font-size: 15px;
+    font-family:montserrat;
+    color:white;
+    padding-top: 21px;
+    display: flex;
+    padding: 15px;
+    position: relative;
+    left: 260px;
+    display: block;
+    text-align: center;
+}
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    height:70px;
+    width: 100%;
+    position:fixed;
+    top:0;
+}
+
+.image1{
+    margin-left: 60px;
+    margin-right: 80px; 
+    padding-top: 10px;
+    float: left;
+    
+
+}
+
+td{
+    padding-right: 30px;
+}
+td:hover{
+    color:#008AFF;
+    cursor: pointer;
+}
+
+.btnInscription{
+    color:white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height:40px;
+    width: 160px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+}
+.btnInscription:hover{
+    color:black;
+    background-color:white;
+    border-radius: 20px;
+    height:40px;
+    width: 160px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin-top:60px;
+}
+.table4{
+    color: #666666;
+    text-align: right;
+    width: 100%; 
+    font-family: montserrat;
+    letter-spacing: 0.08em;
+}
+
+.fix{
+    float:right;
+  
+}
+.fix img{
+    padding:7px;
+  
+}
+
+.MALI{
+    margin-right: -50px;
+}
+.YY{
+    color:rgb(41, 122, 230);
+    padding-left: 20px;
+}
+
+.contact{
+    float:left;
+}
